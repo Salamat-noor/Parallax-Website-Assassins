@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1 {
+    background-image: url(images/2022-assassins-creed-valhalla-dawn-of-ragnarok-ui.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg2 {
+    background-image: url(images/assassin\'s-creed-4-black-flag-18-guide4games.com-.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.pimg3 {
+    background-image: url(images/assassins-creed-valhalla-game-by.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext:hover {
+    font-size: 35px;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+
+.textbg {
+    background: rgba(1, 1, 1, 0.1);
+    color: #fff;
+    padding: 20px;
+}
+
+.textbg:hover {
+    background: rgba(72, 23, 23, 0.5);
+    color: #fffd77;
+    padding: 10px;
+}
+
+.section {
+    padding: 50px 80px;
+    text-align: center;
+
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
